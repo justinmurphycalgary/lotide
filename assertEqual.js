@@ -1,7 +1,9 @@
 // FUNCTION IMPLEMENTATION
 const assertEqual = function(actual,expected) {
   actual === expected
-    ? console.log("✅Assertion Passed:" + actual + " = " + expected)
+    //literal refactoring
+    ? console.log(`✅Assertion Passed: ${actual} = ${expected}`)
+    //conventional method
     : console.log("🛑Assertion failed:" + actual + " != " + expected);
 };
 

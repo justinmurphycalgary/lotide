@@ -2,7 +2,7 @@ var inputArgv = process.argv.slice(2);
 
 if (inputArgv.length === 1) {
   let returnValue = "";
-  const inputString = String(inputArgv[0]);
+  const inputString = inputArgv[0];
   for (var i = 0; i < inputString.length; i++) {
     switch (inputString[i]) {
       case "a":

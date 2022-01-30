@@ -1,10 +1,8 @@
 // FUNCTION IMPLEMENTATION
 const eqArrays = function (actual, expected) {
   JSON.stringify(actual) === JSON.stringify(expected)
-    ? //literal refactoring
-      console.log(`✅Assertion Passed: ${actual} = ${expected}`)
-    : //conventional method
-      console.log(`🛑Assertion failed: ${actual} != ${expected}`);
+    ? console.log(`✅ Assertion Passed: ${actual} = ${expected}`)
+    : console.log(`🛑 Assertion failed: ${actual} != ${expected}`);
 };
 
 // TEST CODE

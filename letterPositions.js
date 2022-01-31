@@ -1,3 +1,4 @@
+//function implimentation
 const letterPosition = (param) => {
   let results = {};
   for (let i = 0; i < param.length; i++) {
@@ -8,4 +9,5 @@ const letterPosition = (param) => {
   return results;
 };
 
+//test code
 console.log(letterPosition("hello my name is helen"));

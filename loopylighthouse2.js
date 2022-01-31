@@ -1,3 +1,4 @@
+//function implimentation
 const loopyLighthouse = (range, multiples, words) =>{
   for (let n = range[0]; n <= range[1]; n++) {
     if ((n % multiples[1] == 0) && (n % multiples[0] == 0)) {
@@ -11,5 +12,5 @@ const loopyLighthouse = (range, multiples, words) =>{
     }
   }
 }
-
+//test code
 loopyLighthouse([15, 90], [2, 5], ["Batty", "Beacon"]);

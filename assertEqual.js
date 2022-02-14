@@ -1,14 +1,15 @@
+console.clear();
+
 //function implimentation
 const assertEqual = function (actual, expected) {
-  actual === expected ? true : false;
+  answer = actual === expected ? true : false;
+  if (answer === true) {
+    console.log("AE Results, Are the values Equal? :>> ", answer);
+  } else {
+    console.log("AE actual :>> ", actual);
+    console.log("AE expected :>> ", expected);
+  }
+  return answer;
 };
 
-// TEST CODE
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
-
-// const assertEqual = function(actual,expected) {
-//   actual === expected
-//     ? console.log(`✅Assertion Passed: ${actual} = ${expected}`)
-//     : console.log("🛑Assertion failed:" + actual + " != " + expected);
-// };
+module.exports = assertEqual;

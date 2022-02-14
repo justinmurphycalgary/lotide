@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "justinmurphycalgary",
   "version": "1.0.0",
-  "description": "",
+  "description": "lighthouse lotide",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/justinmurphycalgary/lotide.git"
   },
-  "author": "",
+  "author": "Justin Murphy",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/justinmurphycalgary/lotide/issues"
